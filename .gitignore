@@ -1,55 +1,22 @@
-# Prerequisites
-*.d
+# SWI-Prolog compiled files
+*.qlf
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# VS Code settings
+.vscode/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# OS-specific files
+.DS_Store
+Thumbs.db
 
-# Precompiled Headers
-*.gch
-*.pch
+# Logs and temp files
+*.log
+*.tmp
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Secrets or config overrides
+.env
+*.key
+*.pem
+*.crt
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Pack system (if using local packs)
+packs/
